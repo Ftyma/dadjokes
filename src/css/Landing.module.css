@@ -1,0 +1,14 @@
+.container {
+  margin-top: 8rem;
+  text-align: center;
+}
+
+.subtitle {
+  color: grey;
+  font-weight: lighter;
+  font-size: x-large;
+}
+.title {
+  font-size: 5rem;
+  margin-bottom: 0;
+}

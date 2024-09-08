@@ -1,0 +1,14 @@
+.text {
+  color: goldenrod;
+}
+.container {
+  margin-top: 5rem;
+  font-size: medium;
+  width: 450px;
+
+  margin-inline: auto;
+}
+.title {
+  color: rgb(70, 69, 69);
+  font-weight: 600;
+}

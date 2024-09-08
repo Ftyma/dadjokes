@@ -1,0 +1,28 @@
+.title {
+  font-weight: bold;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 0px;
+  margin-top: 3rem;
+  padding: 1rem;
+  margin-left: 5rem;
+}
+
+p {
+  margin: 10px;
+}
+
+.randomCard {
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+  border: 1px solid black;
+  width: auto;
+  height: auto;
+  border-radius: 20px;
+  padding: 1rem;
+}

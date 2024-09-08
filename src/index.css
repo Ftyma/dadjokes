@@ -1,0 +1,12 @@
+html,
+#root,
+.App {
+  height: 100%;
+  overflow-x: hidden;
+  padding: 0px;
+  background-color: antiquewhite;
+}
+
+.navbar ul a.active {
+  color: rgb(34 197 94);
+}

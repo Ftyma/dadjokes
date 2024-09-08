@@ -1,0 +1,70 @@
+.cardContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 5rem;
+  margin-top: 5rem;
+  position: relative;
+}
+
+.card {
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: whitesmoke;
+  height: auto;
+  width: 250px;
+  padding-block: 10px 40px;
+  padding-inline: 10px;
+
+  position: relative;
+}
+
+.title {
+  text-align: center;
+}
+
+.paginateBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 2rem;
+}
+
+.nextBtn,
+.backBtn {
+  background-color: #ffcc00;
+  border: none;
+  padding: 5px;
+  color: black;
+  width: 80px;
+  border-radius: 5px;
+  box-shadow: 0 3px 3px gray;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.nextBtn:hover,
+.backBtn:hover {
+  transform: scale(1.08);
+}
+
+.copyBtn {
+  display: flex;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  justify-content: end;
+  align-items: end;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  position: absolute;
+  bottom: 1;
+  right: 0;
+}
+
+.text {
+  text-align: center;
+}
