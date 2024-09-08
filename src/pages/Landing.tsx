@@ -1,4 +1,3 @@
-import React from "react";
 import RandomJoke from "../components/RandomJoke";
 import SearchBar from "../components/SearchBar";
 import styles from "../css/Landing.module.css";

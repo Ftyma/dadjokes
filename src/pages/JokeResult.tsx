@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { useLocation } from "react-router-dom";
 import NoJoke from "../components/noJoke";
 import styles from "../css/Result.module.css";

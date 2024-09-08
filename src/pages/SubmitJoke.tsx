@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import styles from "../css/SubmitJoke.module.css";
 
 const SubmitJoke = () => {
@@ -16,7 +16,7 @@ const SubmitJoke = () => {
     }
   }, []);
 
-  const handleSubmit = (e) => {
+  const handleSubmit = (e: any) => {
     e.preventDefault();
     if (newJoke.trim() === "") {
       alert("Please enter a joke before submitting.");

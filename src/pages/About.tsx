@@ -1,5 +1,3 @@
-import React from "react";
-import RandomJoke from "../components/RandomJoke";
 import styles from "../css/About.module.css";
 
 const About = () => {
